@@ -53,3 +53,46 @@ export const Associate = [
     ratings: "5.0",
   },
 ];
+
+export const services = [
+  {
+    img: "1.png",
+    title: "Pre Wedding Photoshoot",
+    price: " Starting at 25,000 (One Day)",
+  },
+  {
+    img: "2.png",
+    title: "Wedding Photoshoot ",
+    price: "Starting at 65,000 (Two days )",
+  },
+  {
+    img: "3.png",
+    title: "Portfolio Shoot",
+    price: " Starting at 25,000 ( 6-8 hours)",
+  },
+  {
+    img: "4.png",
+    title: "Birthday Baby Folio ",
+    price: "Starting at 15,000 (One days)",
+  },
+  {
+    img: "1.png",
+    title: "Pre Wedding Photoshoot",
+    price: " Starting at 25,000 (One Day)",
+  },
+  {
+    img: "2.png",
+    title: "Wedding Photoshoot",
+    price: "Starting at 65,000 (Two days ) ",
+  },
+  {
+    img: "3.png",
+    title: "Portfolio Shoot",
+    price: " Starting at 25,000 ( 6-8 hours)",
+  },
+  {
+    img: "4.png",
+    title: "Birthday Baby Folio ",
+    price: "Starting at 15,000 (One days)",
+  },
+];
