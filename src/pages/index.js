@@ -17,7 +17,7 @@ import Footer from "@/components/Shared/Footer/Footer";
 import Header from "@/components/Shared/Header/Header";
 export default function Home() {
   return (
-    <body>
+    <div>
       <Header />
       <Banner />
       <CTA />
@@ -33,6 +33,6 @@ export default function Home() {
       <Success />
       <Photography />
       <Footer />
-    </body>
+    </div>
   );
 }
