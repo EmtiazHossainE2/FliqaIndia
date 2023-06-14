@@ -1,18 +1,16 @@
-import React from "react";
 import {
-  Navbar,
-  MobileNav,
-  Typography,
-  Button,
   IconButton,
-  Card,
+  MobileNav,
+  Navbar,
+  Typography
 } from "@material-tailwind/react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const Header = () => {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [openNav, setOpenNav] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false)
@@ -51,14 +49,16 @@ const Header = () => {
 
   return (
     <main className="bg-[#131514]">
-      <Navbar className="sticky inset-0 z-10 h-max container mx-auto  lg:px-8 rounded-none py-[1px]
-       px-4 bg-[#131514]">
+      <Navbar
+        className="sticky inset-0 z-10 h-max container mx-auto  lg:px-8 rounded-none py-[1px]
+       px-4 bg-[#131514]"
+      >
         <div className="flex items-center justify-between ">
           <div className="flex justify-center items-center">
             <Typography
               as="a"
               href="/"
-              className="mr-4 cursor-pointer py-1.5 font-medium"
+              className="mr-4 cursor-pointer py-1.5 font-medium hidden lg:block"
             >
               <Image
                 src="/FliqaIndia-Logo1.svg"
@@ -66,6 +66,20 @@ const Header = () => {
                 height={50}
                 alt="logo"
               />
+              
+            </Typography>
+            <Typography
+              as="a"
+              href="/"
+              className="mr-4 cursor-pointer py-1.5 font-medium lg:hidden"
+            >
+              <Image
+                src="/FliqaIndia-Logo1.svg"
+                width={120}
+                height={50}
+                alt="logo"
+              />
+              
             </Typography>
             <div className="ml-8 hidden lg:block">{navList}</div>
           </div>
