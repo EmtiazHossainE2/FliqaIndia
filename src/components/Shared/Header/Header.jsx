@@ -50,7 +50,7 @@ const Header = () => {
   return (
     <main className="bg-[#131514]">
       <Navbar
-        className="sticky inset-0 z-10 h-max container mx-auto  lg:px-8 rounded-none py-[1px]
+        className="sticky inset-0 z-50 h-max container mx-auto  lg:px-8 rounded-none py-[1px]
        px-4 bg-[#131514]"
       >
         <div className="flex items-center justify-between ">

@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jura:wght@400;700&display=swap');
+
+
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: 0;
+}
+
+
+
+.customContainer {
+  @apply container mx-auto px-4 lg:px-8;
 }
