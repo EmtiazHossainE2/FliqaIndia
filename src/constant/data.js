@@ -164,3 +164,30 @@ export const bestOffers = [
     img:"4.png"
   },
 ];
+
+export const awards = [
+  {
+    img: "logo1.png",
+    ratings:"4.7/5"
+  },
+  {
+    img: "logo2.png",
+    ratings:"4.9/5"
+  },
+  {
+    img: "logo3.png",
+    ratings:"4.7/5"
+  },
+  {
+    img: "logo1.png",
+    ratings:"4.8/5"
+  },
+  {
+    img: "logo5.png",
+    ratings:"4.6/5"
+  },
+  {
+    img: "logo6.png",
+    ratings:"4.4/5"
+  },
+];

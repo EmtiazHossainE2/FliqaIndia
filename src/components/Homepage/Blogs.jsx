@@ -9,7 +9,7 @@ const Blogs = () => {
         <h2 className="text-[#4C696D] font-bold text-2xl">Our Blogs</h2>
         <p className="font-thin pb-2">Check out our Latest Blog</p>
         <div className="flex flex-col lg:flex-row gap-5">
-          <div className="lg:basis-9/12">
+          <div className="lg:basis-9/12 cursor-pointer">
             <div className="flex flex-col lg:flex-row justify-between gap-5">
               <div className="relative">
                 <Image
@@ -58,7 +58,7 @@ const Blogs = () => {
               {trending.map((item, index) => (
                 <div
                   key={index}
-                  className="flex gap-y-5 items-start justify-start"
+                  className="flex gap-y-5 items-start justify-start cursor-pointer"
                 >
                   <div className="basis-3/12">
                     <Image
