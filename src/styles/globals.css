@@ -44,6 +44,11 @@
   background-position: top left;
   background-size: cover;
 }
+.CTA2{
+  background-image: url("/images/footerBg.svg");
+  background-position: top left;
+  background-size: cover;
+}
 
 .bg-overlay {
   background-color: #0b1118;

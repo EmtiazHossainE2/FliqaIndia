@@ -11,6 +11,7 @@ import Success from "./Success";
 import Testimonials from "./Testimonials";
 import Brands from "./Brands";
 import Award from "./Award";
+import CTA2 from "./CTA2";
 
 export {
   Banner,
@@ -26,4 +27,5 @@ export {
   Award,
   Success,
   Photography,
+  CTA2,
 };

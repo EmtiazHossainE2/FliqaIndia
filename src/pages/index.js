@@ -5,6 +5,7 @@ import {
   Blogs,
   Brands,
   CTA,
+  CTA2,
   Discover,
   Photography,
   RealWedding,
@@ -32,6 +33,7 @@ export default function Home() {
       <Award />
       <Success />
       <Photography />
+      <CTA2/>
       <Footer />
     </div>
   );
