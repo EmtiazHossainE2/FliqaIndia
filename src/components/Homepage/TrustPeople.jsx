@@ -17,7 +17,7 @@ const TrustPeople = () => {
             </p>
           </div>
           <Link href="/" className="text-[#4C696D] text-sm">
-            See More {">>"}
+            See More 
           </Link>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">

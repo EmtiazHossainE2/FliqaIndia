@@ -96,3 +96,21 @@ export const services = [
     price: "Starting at 15,000 (One days)",
   },
 ];
+
+export const trending = [
+  {
+    img: "3.png",
+    title: "Creative Industries are on the verge of depletion due to COVID-19",
+    des: "In a period where many industries remain highly unclear, others want to grasp how COVID-19 impact",
+  },
+  {
+    img: "4.png",
+    title: "Photography: Expectations vs. Reality",
+    des: "Most of the time without any hands-on experience in photography, professional and advanced photography actually",
+  },
+  {
+    img: "5.png",
+    title: "Wedding Photography at Goa ",
+    des: "Wedding Photography in Goa If not, every couple when they make their list of Pre-wedding shoot",
+  },
+];
