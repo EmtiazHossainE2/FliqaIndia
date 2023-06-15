@@ -114,3 +114,38 @@ export const trending = [
     des: "Wedding Photography in Goa If not, every couple when they make their list of Pre-wedding shoot",
   },
 ];
+
+export const realWedding = [
+  {
+    img1: "main1.png",
+    img2: "sub1.png",
+    img3: "sub2.png",
+    img4: "sub3.png",
+    title: "Danielle & Ronnie",
+    location: "38 photos. Kittery,Polland",
+  },
+  {
+    img1: "main2.png",
+    img2: "sub1.png",
+    img3: "sub2.png",
+    img4: "sub3.png",
+    title: "Danielle & Ronnie",
+    location: "38 photos. Kittery,Polland",
+  },
+  {
+    img1: "main3.png",
+    img2: "sub1.png",
+    img3: "sub2.png",
+    img4: "sub3.png",
+    title: "Danielle & Ronnie",
+    location: "38 photos. Kittery,Polland",
+  },
+  {
+    img1: "main4.png",
+    img2: "sub1.png",
+    img3: "sub2.png",
+    img4: "sub3.png",
+    title: "Danielle & Ronnie",
+    location: "38 photos. Kittery,Polland",
+  },
+];
