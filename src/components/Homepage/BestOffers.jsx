@@ -18,6 +18,14 @@ const BestOffers = () => {
                   alt="offer"
                   width={243}
                   height={175}
+                  className="lg:hidden w-full"
+                />
+                <Image
+                  src={`/images/offers/${offer.img}`}
+                  alt="offer"
+                  width={243}
+                  height={175}
+                  className="hidden lg:block"
                 />
               </div>
               {index < bestOffers.length - 1 && (

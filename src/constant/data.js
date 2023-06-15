@@ -191,3 +191,26 @@ export const awards = [
     ratings:"4.4/5"
   },
 ];
+
+export const successData = [
+  {
+    img: "1.png",
+    des: "Back in 2019, FliqaIndia recognize startup.",
+  },
+  {
+    img: "2.png",
+    des: "Appreciation from Startup Bengal our community",
+  },
+  {
+    img: "3.png",
+    des: "FliqaIndia got featured on Yourstory. ",
+  },
+  {
+    img: "1.png",
+    des: "Received awards from ImagesBazaar industry",
+  },
+  {
+    img: "5.png",
+    des: "Top ten in Intuit Circle Codeathon, 2020",
+  },
+];

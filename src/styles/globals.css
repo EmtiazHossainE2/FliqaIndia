@@ -39,6 +39,11 @@
   background-position: top left;
   background-size: cover;
 }
+.photo{
+  background-image: url("/images/photography/bg.png");
+  background-position: top left;
+  background-size: cover;
+}
 
 .bg-overlay {
   background-color: #0b1118;
