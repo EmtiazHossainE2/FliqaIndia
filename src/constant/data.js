@@ -149,3 +149,18 @@ export const realWedding = [
     location: "38 photos. Kittery,Polland",
   },
 ];
+
+export const bestOffers = [
+  {
+    img:"1.png"
+  },
+  {
+    img:"2.png"
+  },
+  {
+    img:"3.png"
+  },
+  {
+    img:"4.png"
+  },
+];

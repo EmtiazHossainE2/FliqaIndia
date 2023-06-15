@@ -55,7 +55,7 @@ const Services = () => {
             <div key={index} className="bg-white">
               <SwiperSlide className="bg-white">
                 <div className="rounded-[10px] shadow-2xl gap-5 mb-[2px]">
-                  <div>
+                  <div className="flex justify-center items-center">
                     <Image
                       src={`/images/service/${service.img}`}
                       alt={service.title}

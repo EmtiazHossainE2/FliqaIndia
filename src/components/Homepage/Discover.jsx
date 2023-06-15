@@ -25,7 +25,7 @@ const Discover = () => {
                     fontFamily: "Josefin Sans",
                   }}
                 />
-                <button className="absolute left-[45%] xl:left-[38%] border  bg-[#221010] text-white rounded-[34px] px-5 py-[5px]">
+                <button className="absolute  left-[48%] xl:left-[38%] border  bg-[#221010] text-white rounded-[34px] px-5 py-[5px]">
                   Search
                 </button>
               </div>
