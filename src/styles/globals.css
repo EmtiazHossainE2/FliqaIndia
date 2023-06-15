@@ -30,3 +30,10 @@
     transform: translate3d(0,0,0);
     z-index: 10;
 }
+
+.discover {
+    background-color: #ffffff;
+    background-image: url("/images/discover/banner.png");
+    background-position: top left;
+    background-size: cover;
+}
